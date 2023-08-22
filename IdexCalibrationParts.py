@@ -88,7 +88,7 @@ class IdexCalibrationParts(QObject, Extension):
         self._message = None
         
         
-        self.setMenuName(catalog.i18nc("@item:inmenu", "Add Part for IDEX Offset Calibration or Test"))
+        self.setMenuName(catalog.i18nc("@item:inmenu", "IDEX Offset Calibration and Test"))
         self.addMenuItem(catalog.i18nc("@item:inmenu", "Coarse Offset Calibration Part, like Weedo (1mm)"), self.addCoarsetuning)
         self.addMenuItem(catalog.i18nc("@item:inmenu", "Fine Offset Calibration Part, like Weedo (0.1mm)"), self.addFinetuning)
         self.addMenuItem(catalog.i18nc("@item:inmenu", "Alternativ Offset Calibration Part"), self.addExtruderOffsetCalibration)  
